@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 2 </title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <script>
+        alert('Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.')
+        var firstNumber = +prompt('Enter First number');
+        var secondNumber = + prompt('Enter Second number');
+
+        if(firstNumber > secondNumber){
+            document.write(`<h1 class ="q">First number ${firstNumber} has larger value than second number ${secondNumber}</h1>`);
+
+        }
+        else if(secondNumber > firstNumber){
+            document.write(`<h1 class ="q">Second number ${secondNumber} has larger value than first number ${firstNumber}</h1>`);
+        }
+        else{
+            document.write(`<h1 class ="q">Both value are equal</h1>`);
+
+
+        }
+    </script>
+</body>
+</html>
