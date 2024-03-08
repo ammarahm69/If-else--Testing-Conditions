@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+
+    <script>
+        var userFirstPass = prompt('Enter your password');
+        var userSecondPass = prompt('Re-enter your password');
+
+        if (userFirstPass == '' || userSecondPass == '') {
+            document.write(`<h1 class ="q">Please enter your password</h1>`);
+            
+        } else if (userFirstPass == userSecondPass) {
+            document.write(`<h1 class ="q">Your password is correct</h1>`);
+            
+        }
+        else {
+            document.write(`<h1 class ="q">Your password is incorrect password</h1>`);
+        }
+    </script>
+</body>
+
+</html>
